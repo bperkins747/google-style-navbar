@@ -13,8 +13,8 @@ html {
 /* Main */
 
 body {
+	/* Bar will not fit to edges of window if there is a body margin */
 	margin: 0px;
-	overflow: scroll;
 }
 #navbar {
 	background-color: var(--navbar-color);
